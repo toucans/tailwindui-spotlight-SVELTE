@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add @types/path --dev
+
+PATH: 
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ffmpeg\bin;C:\youtube-dl;C:\Program Files\Calibre2\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.1\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\NoteBook FanControl\;C:\Users\Johan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Ruby32-x64\bin;C:\Users\Johan\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Johan\AppData\Local\Programs\Python\Python310\;C:\Users\Johan\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Johan\AppData\Local\Programs\Python\Python311\;C:\Users\Johan\AppData\Local\Microsoft\WindowsApps;C:\ffmpeg\bin;C:\youtube-dl;C:\Users\Johan\AppData\Roaming\npm;C:\Users\Johan\AppData\Local\Microsoft\WinGet\Packages\jqlang.jq_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Johan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Johan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\flutter\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fpath: Not found
+      at params.callback [as _callback] (C:\Users\Johan\AppData\Roaming\nvm\v18.18.2\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\Johan\AppData\Roaming\nvm\v18.18.2\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:517:28)
+      at Request.<anonymous> (C:\Users\Johan\AppData\Roaming\nvm\v18.18.2\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:517:28)
+      at IncomingMessage.<anonymous> (C:\Users\Johan\AppData\Roaming\nvm\v18.18.2\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:631:28)
+      at IncomingMessage.emit (node:events:529:35)
+      at endReadableNT (node:internal/streams/readable:1368:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+  	"name": "tailwindui-spotlight-svelte",
+  	"version": "0.0.1",
+  	"private": true,
+  	"scripts": {
+  		"dev": "vite dev",
+  		"build": "vite build",
+  		"preview": "vite preview",
+  		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+  		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+  		"lint": "prettier --plugin-search-dir . --check .",
+  		"format": "prettier --plugin-search-dir . --write ."
+  	},
+  	"devDependencies": {
+  		"@sveltejs/adapter-auto": "^2.0.0",
+  		"@sveltejs/kit": "^1.20.4",
+  		"autoprefixer": "^10.4.14",
+  		"path": "^0.12.7",
+  		"postcss": "^8.4.24",
+  		"postcss-load-config": "^4.0.1",
+  		"prettier": "^2.8.0",
+  		"prettier-plugin-svelte": "^2.10.1",
+  		"svelte": "^4.0.5",
+  		"svelte-check": "^3.4.3",
+  		"tailwindcss": "^3.3.2",
+  		"tslib": "^2.4.1",
+  		"typescript": "^5.0.0",
+  		"vite": "^4.4.2",
+  		"vite-imagetools": "^6.0.0"
+  	},
+  	"type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
