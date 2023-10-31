@@ -55,8 +55,8 @@
 								{/if}
 							</div>
 							<div class="flex flex-1 justify-end md:justify-center">
-								<!-- <MobileNavigation /> -->
-								<DesktopNavigation />
+								<MobileNavigation class="pointer-events-auto md:hidden" />
+								<DesktopNavigation class="pointer-events-auto hidden md:block" />
 							</div>
 							<div class="flex justify-end md:flex-1">
 								<div class="pointer-events-auto">
