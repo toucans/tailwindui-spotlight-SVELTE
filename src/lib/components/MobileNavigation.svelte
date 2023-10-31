@@ -22,7 +22,9 @@
 					<h2 class="text-sm font-medium text-zinc-600 dark:text-zinc-400">Navigation</h2>
 				</div>
 				<nav class="mt-6">
-					<ul class="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
+					<ul
+						class="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300"
+						on:click={() => (openMenu = !openMenu)}>
 						<li><a class="block py-2" href="/about">About</a></li>
 						<li><a class="block py-2" href="/articles">Articles</a></li>
 						<li><a class="block py-2" href="/projects">Projects</a></li>
